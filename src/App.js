@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 import uuid from 'react-uuid';
+import Header from './components/Header';
 
 import FilmLog from "./components/Log/FilmLog";
 import NewEntry from "./components/NewEntry/NewEntry";
@@ -63,6 +64,7 @@ const App = () => {
 
   return (
     <div>
+      <Header />
       <NewEntry onAddEntry={addEntryHandler} />
       <FilmLog entries={logList} />
     </div>
