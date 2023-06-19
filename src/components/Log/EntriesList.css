@@ -1,0 +1,9 @@
+.entries-list {
+    list-style: none;
+    padding: 0;
+}
+
+.entries-list__fallback {
+    color: white;
+    text-align: center;
+}
